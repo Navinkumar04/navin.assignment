@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(246, 255, 0);
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  header, footer {
+    background-color: #ff0019;
+  }
+  
+  .site-title {
+    color: #4CAF50;
+  }
+  
+  #my-image {
+    box-shadow: 0 0 2px 1px rgb(0, 0, 0);
+  }
+  
+  .hobby-list li:nth-child(odd) {
+    background-color: #7ff700;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    background-color: #1100ff;
+    border: 1px solid #ff9d00;
+  }
+  
+  nav ul li a:hover, nav ul li a:focus {
+    background-color: #4CAF50;
+    color: rgb(251, 255, 0);
+  }
